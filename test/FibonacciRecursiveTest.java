@@ -24,7 +24,7 @@ class FibonacciRecursiveTest {
     @Test
     void calculerTermeFibonacciRec() {
 
-       assertEquals(serviceFibonacci.calculerTermeFibonacciRecursive(40), 102334155);
+       assertEquals(serviceFibonacci.calculerTermeFibonacciRecursive(40), BigInteger.valueof(102334155));
     }
 
 
