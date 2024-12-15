@@ -59,7 +59,7 @@ public class VueFibonacci {
         Scanner sc = new Scanner(System.in);
         System.out.println("\n***************** Service Suite Fibonacci **************\n");
 
-        while (option != 3) {
+        while (option == -1) {
             System.out.println("##################################################");
             System.out.println("Choisissez l'une des options suivantes : \n");
             System.out.println("1. Calculer une suite de Fibonacci par la méthode itérative;");
